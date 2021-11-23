@@ -1,12 +1,10 @@
-from os import read
 from sklearn import model_selection, datasets, linear_model, metrics
+# TODO ask why those??^^^
 import pandas as pd
-import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.neural_network import MLPClassifier
-from sklearn import metrics
 from sklearn.metrics import accuracy_score
 
 
