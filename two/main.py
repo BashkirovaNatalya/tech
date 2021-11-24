@@ -22,4 +22,7 @@ pyplot.scatter(female_df['Height'], female_df['Weight'], c='pink', marker=".")
 pyplot.scatter(male_df['Height'], male_df['Weight'], c='blue', marker=".")
 pyplot.show()
 
-print(female_df.head())
+
+
+
+# print(female_df.head())
