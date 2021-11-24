@@ -33,12 +33,14 @@ def use_classificator(X_train, X_test, y_train, y_test, classificator):
 
 
     result_score = metrics.f1_score(y_test, y_pred)
-
     print('nf1 score: ', result_score)
     print('acc score:', accuracy_score(y_test, y_pred))
 
+print("MultinomialNB:")
 use_classificator(X_train, X_test, y_train, y_test,  MultinomialNB())
+print("DecisionTreeClassifier:")
 use_classificator(X_train, X_test, y_train, y_test,  DecisionTreeClassifier())
+print("MLPClassifier:")
 use_classificator(X_train, X_test, y_train, y_test,  MLPClassifier())
 
 
